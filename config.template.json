@@ -1,0 +1,33 @@
+{
+    "dropbox": {
+        "api_token": "YOUR_DROPBOX_API_TOKEN"
+    },
+    "store": {
+        "target_dir": "/photos",
+        "source_dirs": [
+            "/source-dir1",
+            "/source-dir2"
+        ]
+    },
+    "group": {
+        "directory": "/photos"
+    },
+    "duplicates": {
+        "directories_to_find": [
+            "/photos"
+        ]
+    },
+    "directories": {
+        "to_maintain": [
+            "/photos/travels",
+            "/photos/child"
+        ],
+        "to_remove": [
+            "/photos/camera"
+        ]
+    },
+    "exclude": {
+        "base_dir": "/photos",
+        "temporary_trash_dir": "/photos-trash"
+    }
+}
